@@ -1,7 +1,7 @@
 require_relative 'piece.rb'
 require_relative 'slideable'
 
-class Bishop < Piece
+class Rook < Piece
   include Slideable
 
   def move_dirs
@@ -9,5 +9,6 @@ class Bishop < Piece
   end
 
   def symbol
+    :R
   end
 end
